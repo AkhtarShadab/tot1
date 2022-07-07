@@ -37,7 +37,7 @@ app.post("/", function (req, res) {
   const jsonData = JSON.stringify(data);
   const options = {
     method: "POST",
-    auth: "Shadab:cd90b219ab44d127554fd0abb2b812d2-us8",
+    auth: "Shadab:fb01c44be5b51267ba863fd262030022-us8",
   };
 
   const request = https.request(url, options, function (response) {
@@ -65,5 +65,5 @@ app.get("/success", function (req, res) {
 
 app.listen(process.env.PORT || 3000, console.log("server is running"));
 
-// Mailchimp API- cd90b219ab44d127554fd0abb2b812d2-us8
+// Mailchimp API- fb01c44be5b51267ba863fd262030022-us8
 // Mailchimp Audience ID- 39494f21c2
